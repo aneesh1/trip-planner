@@ -1,0 +1,51 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.full-module {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-top: 2em;
+}
+
+input {
+    border-radius: 100px;
+    height: 50px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+}
+
+label {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+button {
+    border-radius: 32px;
+    color: white;
+    background-color: black;
+    font-size: 32px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 15px 60px;
+    font-family: inherit;
+}
+
+input + label {
+    margin-top: 5rem;
+}
+
+.earlyInputs > input {
+    width: 5rem;
+}
